@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+body #add-task h3 {
+  margin-bottom: 0.5rem;
+}
+
+body #add-task input {
+  padding: 0.5rem;
+  outline: none;
+}
+
+body #add-task button {
+  padding: 0.5rem 1rem;
+  background-color: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: #0d6efb;
+  border: none;
+  outline: none;
+}
+
+body ul {
+  margin-top: 1rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body ul li {
+  margin-top: 1rem;
+}
+
+body ul li button:nth-child(2),
+body ul li button:last-child {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+body ul li button:nth-child(2) {
+  background-color: #20c997;
+}
+
+body ul li button:last-child {
+  background-color: #dc3545;
+}
+
+body ul li span {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
